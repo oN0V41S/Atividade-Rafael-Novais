@@ -1,0 +1,19 @@
+body{
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+   width: 500px;
+   background-color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
+}
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color:rgb(78, 78, 255)
+}
+img{
+    width: 500px;
+    
+}

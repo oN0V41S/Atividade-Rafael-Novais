@@ -1,0 +1,22 @@
+table {
+    /*estilo da tabela */
+    border-style: solid;
+    border-color: rgb(128, 128, 128);
+    border-width: 3px;
+    width: 600px;
+    border-spacing:0em;
+    text-align: center;
+    background-color: gray;
+}
+
+/*delimitando bordas no cabeçalho e células */
+th{
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+}
+td{
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+}

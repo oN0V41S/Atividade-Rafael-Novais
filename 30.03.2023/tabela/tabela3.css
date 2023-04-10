@@ -1,0 +1,17 @@
+table, th, td{
+
+    /*usando parametros no mesmo comando (estilo, cor, espessura) */
+    border: solid black 3px;
+    border-color: rgb(0, 0, 0);
+    border-width: 1px;
+
+    border-spacing:0em;
+    background-color: gray;
+    text-align: center;
+
+}
+
+/*definindo apenas a espessura da tabela */
+table{
+    width: 600px;
+}
