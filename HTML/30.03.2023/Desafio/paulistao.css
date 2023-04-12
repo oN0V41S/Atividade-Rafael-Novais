@@ -1,0 +1,11 @@
+table{
+    text-align: left;
+    color: whitesmoke;
+    width: 700px;
+    background-color: #3c3c3c;
+    border-collapse: collapse;
+}
+.tabela{
+    border-bottom: 1px solid grey;
+}
+

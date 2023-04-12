@@ -1,0 +1,16 @@
+table{
+    border-bottom: 2px solid lightseagreen;
+    border-spacing: 0em;
+    width: 600px;
+    text-align: left;
+}
+
+.separadores {
+    border: solid lightseagreen 2px;
+    color: white;
+    background-color: lightseagreen;    
+}
+.negrito {
+    color: lightseagreen;
+    background-color: rgb(216, 215, 215);
+}
