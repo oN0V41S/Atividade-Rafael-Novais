@@ -1,0 +1,31 @@
+/* Definindo para Todas tags */
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    /*
+    border-color: lightblue;
+    border-radius: 48px;
+    border-style: solid;
+    */
+    padding: 20px;
+    width: 100%;
+}
+
+div {
+    margin: 5px;
+    width: 50px;
+    height: 150px;
+}
+
+.esquerda{
+    background-color: pink;
+    float: left;
+}
+.direita{
+    background-color: lightcyan;
+    float: right;
+}
