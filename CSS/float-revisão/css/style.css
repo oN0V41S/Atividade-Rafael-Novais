@@ -1,0 +1,29 @@
+div{
+    width: 50px;
+}
+.div1{
+    background-color: lightcoral;
+    float:left;
+    width: 33%;
+}
+.div2{
+    background-color: lightgoldenrodyellow;
+    float:left;
+    width: 33%;
+}
+.div3{
+    background-color: lightseagreen;
+    float:left;
+    width: 33%;
+}
+
+.box {
+    background-color: lightblue;
+    border: 2px solid rgb(67, 255, 255);
+    float: right;
+    height: 200px;
+    width: 300px;
+    float:inline-end;
+}
+
+
