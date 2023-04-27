@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightcyan;
+    display: flex;
+    overflow: hidden;
+}
+main{
+    float: left;
+}
+
+.card{
+    margin: 20px;
+    padding: 10px;
+    
+}
+.card1{
+    background-color: lightgreen;
+    width: 500px;
+    height: 330px;
+}
+.card2{
+    background-color: lightcoral;
+    height: 60px;
+    width: 700px;
+}
+.card3{
+    background-color: lightseagreen;
+    height: 210px;
+    width: 440px;
+}
+.card4{
+    background-color: lightgoldenrodyellow;
+    height: 75px;
+    width: 200px;
+}
+
+.layer1{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    max-height: 100%;
+}
+
+.layer4{
+    display: flex;
+    flex-direction: row;
+}
+.layer5{
+    display: flex;
+    flex-direction: column;
+}

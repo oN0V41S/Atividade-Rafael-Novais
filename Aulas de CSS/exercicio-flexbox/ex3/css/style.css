@@ -1,0 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #000051;
+    color: #000051;
+    height: 60px;
+}
