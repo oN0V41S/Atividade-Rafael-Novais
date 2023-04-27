@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header1{
+    display: flex;
+}
+
+.header1 > div, .header2 > div{
+    background-color: rgb(77, 77, 255);
+    padding: 1%;
+    border: 1px solid lightblue;
+    text-align: center;
+    width: 100%;
+}
+

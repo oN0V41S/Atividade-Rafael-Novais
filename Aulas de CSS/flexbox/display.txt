@@ -1,0 +1,13 @@
+Display
+Propriedade de multitarefas:
+Block
+Inline
+Inline-block
+flex
+Grid
+none
+flow
+-/--/-
+Display: "valor";
+Display: FLex;
+Quando se descreve o flexbox como sendo unidimensional, enfatiza-se o fato de que ele lida com o layout em uma dimensão de cada vez - seja uma linha ou uma coluna.

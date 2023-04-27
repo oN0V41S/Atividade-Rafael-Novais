@@ -1,0 +1,25 @@
+div{
+    background-color: lightgreen;
+    border: 3px solid lightgreen;
+    height: 200px;
+    padding: 5px;
+    width: 100px;
+}
+section{
+    border: 3px solid lightcoral;
+    padding: 5px;
+}
+
+/* "overflow" delimita o tamanho do elemento dentro do conteiner */
+.caixa{
+    overflow: auto;
+}
+
+.img1{
+    float: right;
+}
+.img2{
+    float: right;
+}
+
+

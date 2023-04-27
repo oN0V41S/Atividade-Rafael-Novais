@@ -1,0 +1,32 @@
+ a{
+    text-decoration: none;
+    color: azure;
+
+}
+
+.header .{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.header .links a{
+    margin: 40px;
+    padding: 0 20px;
+}
+.header1{
+    background: linear-gradient(to left, rgb(117, 211, 255), rgb(117, 190, 255));
+    padding: 10px;
+}
+
+.header2{
+    background-color: rgb(102, 181, 218);
+    font-size: 18px;
+    padding: 10px;
+}
+.header2 a:hover{
+    color: lightblue;
+}
+
+.header2 .btnhome{
+    text-align: left;
+}

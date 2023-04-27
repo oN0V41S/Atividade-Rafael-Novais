@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- "script" habilita o javascript  -->
+    <script>
+
+
+        function validaForm(){
+            /* Criando Variável que puxa o formulário no documento*/
+            let x = document.forms["myForm"]["fname"].value
+
+            /* Se o valor do formulario for "" emitir alerta erro, se nao alerta de sucesso*/
+            if(x == "" ){
+                alert("Nennhum nome adicionado")
+            } else{
+                alert("Seu cadastro foi feito com sucesso")
+            }
+        }
+    </script>
+</head>
+<body>
+    <form name="myForm" onsubmit="return validaForm()">
+        nome: <input type="text" name="fname">
+        <input type="submit" value="cadastrar">
+    </form>
+</body>
+</html>

@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.clear {
+    clear: both;
+}
+
+.main{
+    text-align: justify;
+    margin: 4em 5em;
+    font-size: 20px;
+}
+.main h1{
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.main p{
+    line-height: 30px;
+}
+
+.main .img{
+    text-align: center;
+    color:rgb(99, 99, 99);
+    font-size: 14px;
+    margin: 20px;
+}
+.main img{
+    text-align: center;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+.main1 .img{
+    float: right;
+}
+
+.main2 {
+    margin-top: 8em;
+}
+
+.main2 li{
+    line-height: 2em;
+}
+
+.main2 .img{
+    float: right;
+}
+
+
