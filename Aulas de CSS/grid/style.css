@@ -1,0 +1,104 @@
+    /* Grid Início */
+ /*  .container{
+    background-color: lightslategray;
+    border: 2px solid lightseagreen;
+    padding: 1em;
+    display: grid;
+    Tamanho vertical das colunas
+    grid-template-columns: 50px auto 10%;
+    height: 25vh;
+    Tamanho horizontal das colunas
+    grid-template-rows: 70% 30%;
+     Espaçamento entre células/conteúdos do grid 
+    gap: 5px;
+     Espaçamento entre linhas das células/conteúdos do grid 
+    grid-row-gap: 10px;
+     Espaçamento entre colunas das células/conteúdos do grid 
+    grid-column-gap: 15px;
+}
+
+.container div{
+    background-color: lightgreen;
+    border: 2px solid lightcoral;
+    padding: 1em;
+}  */
+
+    /* Grid template-area */
+/* .container{
+    background-color: lightslategray;
+    border: 2px solid lightseagreen;
+    display: grid;
+    gap: 5px;
+    padding: 1em;
+    Posicionando Áreas do Grid
+    grid-template-areas:
+     'header header header header'
+     'sidebar content content content'
+     'footer footer footer footer' ;
+}
+
+.container div{
+    background-color: lightgreen;
+    border: 2px solid lightcoral;
+    padding: 1em;
+} 
+
+Dando parametros para as áreas do Grid
+#header{
+    grid-area: header;
+}
+#sidebar{
+    grid-area: sidebar;
+    height: 30vh;
+}
+#content{
+    grid-area: content;
+    height: 30vh;
+}
+#footer{
+    grid-area: footer;
+} */
+
+    /* Itens */
+.container{
+    background-color: lightslategray;
+    border: 2px solid lightseagreen;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.container div{
+    background-color: lightgreen;
+    border: 2px solid lightcoral;
+    padding: 1em;
+}  
+
+/* Ocupar uma/varias colunas (A partir de -1) */
+#item-1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+/* Ocupar uma/varias linhas (A partir de -1) */
+#item-2{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+/* Se posiciona ao final da coluna */
+#item-3{
+    justify-self: end;
+    height: 200px;
+}
+
+/* Se posiciona ao centro da coluna */
+#item-4{
+    align-self: center;
+}
+
+/* Se posiciona ao começo da coluna */
+#item-5{
+    justify-self: start;
+    height: 200px;
+}
