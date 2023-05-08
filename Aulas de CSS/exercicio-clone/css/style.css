@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+header{
+    text-align: center;
+    width: 100%;
+    height: 660px;
+    background-image: url(../img/background-home.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}.titulo {
+    padding-top: 20%;
+}.logo{
+    color: azure;
+}
+
+main nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.texto{
+    text-align: center;
+    padding: 10%;
+}
+.select{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+footer{
+    background-color: black;
+    color: azure;
+    display: flex;
+    padding: 5% 2%;
+}
+
+.aside{
+    width: 60%;
+}.aside *{
+    margin: 5%;
+}
+
+.aside a{
+    background-color: azure;
+    border-radius: 10%;
+    padding: 2%;
+}.aside a:hover{
+    background-color: lightgray;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.logos img{
+    width: 20%;
+    height: 20%;
+}
