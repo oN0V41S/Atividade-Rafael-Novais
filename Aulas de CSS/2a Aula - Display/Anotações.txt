@@ -1,0 +1,9 @@
+Exibição
+	innerHTML.
+	document.write().
+	alert()
+	console.log().
+		innerHTML define o conteúdo do HTML;
+		document.write(). para fazer teste;
+		alert() usa uma caixa do navegador;
+		console.log(). usado para depuração.
