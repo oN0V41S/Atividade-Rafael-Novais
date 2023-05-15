@@ -1,0 +1,14 @@
+
+div{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}div input{
+    width: 40px;
+    align-self: center;
+}
+
+.res {
+    display: flex;
+    flex-direction: row;
+}
