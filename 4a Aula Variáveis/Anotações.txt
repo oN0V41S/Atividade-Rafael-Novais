@@ -1,0 +1,10 @@
+Variáveis
+    varb;
+    varb;
+    b = 7
+    b = 8
+
+    let
+    const
+        Let - Não pode ser declarada, devem ser declaradas antes do uso.
+        Const - Não podem sem declaradas, e não podem ser reatribuidas.
