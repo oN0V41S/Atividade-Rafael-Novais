@@ -1,1 +1,0 @@
-Faça um programa que peça dois números e faça soma entre eles. O Resultado deve aparecer, aprovado para maiores que 10 reprovados para menores que 10
