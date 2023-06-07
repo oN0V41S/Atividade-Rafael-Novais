@@ -27,6 +27,7 @@ main nav{
     display: flex;
     justify-content: space-around;
     padding: 20px;
+    heigth: 70%;
 }
 
 .texto{
