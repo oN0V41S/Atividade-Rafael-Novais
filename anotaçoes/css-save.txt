@@ -1,0 +1,10 @@
+background: linear-gradient(to right, #1c1b1b,#838181, #cecece);
+
+<h1 class="text-categoria1 text-categoria">Inverno</h1>
+        <h1 class="text-categoria2 text-categoria">Vestido</h1>
+        <h1 class="text-categoria3 text-categoria">Conjunto</h1>
+        <h1 class="text-categoria4 text-categoria">Alfaiataria</h1>
+        <h1 class="text-categoria5 text-categoria">Macacão</h1>
+        <h1 class="text-categoria6 text-categoria">Blusas</h1>
+        <h1 class="text-categoria7 text-categoria">Calças</h1>
+        <h1 class="text-categoria8 text-categoria">Promoções</h1>
