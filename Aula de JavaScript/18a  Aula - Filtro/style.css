@@ -1,0 +1,30 @@
+body{
+    width: 100%;
+}
+
+#myInput{
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    border-radius: 5px;
+}
+
+#myUl{
+    list-style-type: none;
+    margin: 0px;
+    border-radius: 5px;
+}
+#myUl li a{
+        border-radius: 5px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    background-color: #f6f6f6;
+    padding: 12px;
+    font-size: 18px;
+    color: #111;
+    display: block;
+}#myUl li a:hover{
+    background-color: #eee;
+}
